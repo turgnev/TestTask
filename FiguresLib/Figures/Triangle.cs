@@ -7,7 +7,7 @@ namespace FiguresLib.Figures
     {
         private readonly List<double> _sortedSizes;
 
-        internal Triangle(double a, double b, double c)
+        public Triangle(double a, double b, double c)
         {
             _sortedSizes = new List<double> { a, b, c };
             _sortedSizes.Sort();

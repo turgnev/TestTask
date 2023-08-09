@@ -7,7 +7,7 @@ namespace FiguresLib.Figures
     {
         private readonly double _radius;
 
-        internal Circle(double radius)
+        public Circle(double radius)
         {
             _radius = radius;
         }
